@@ -1,3 +1,5 @@
+
+# Tak
 # 🎮 Instrukcja Instalacji Paczki Modów
 
 Siema! Oto szybki poradnik, jak krok po kroku zainstalować mody potrzebne do gry na naszym serwerze. Zrób wszystko po kolei, żeby gra nie wywaliła błędu przy dołączaniu.
