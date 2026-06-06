@@ -1,49 +1,41 @@
+# 🎮 MatiJaChceMinecrafta - Modpack (Wersja 26.1.2)
 
-# Tak
-# 🎮 Instrukcja Instalacji Paczki Modów
-
-Siema! Oto szybki poradnik, jak krok po kroku zainstalować mody potrzebne do gry na naszym serwerze. Zrób wszystko po kolei, żeby gra nie wywaliła błędu przy dołączaniu.
+Siema! Oto oficjalna i finalna lista modów dla naszego serwera. Poniżej znajdziesz spis najważniejszych modyfikacji z podziałem na ich funkcje, abyś wiedział, co dokładnie zmienia się w grze.
 
 ---
 
-## 🛠️ Krok 1: Instalacja Fabric Installer
+## 💻 Mody Client-Side
+*Mody, które usprawniają interfejs, grafikę i sterowanie na Twoim komputerze.*
 
-Nasza paczka działa na silniku **Fabric**. Zanim wrzucisz mody, musisz przygotować launcher Minecrafta.
+* **`controllable`** / **`Controlling`** – Pełne, natywne wsparcie dla padów (Xbox/PlayStation) z wygodnym menu i kursorami na każdym ekranie gry.
+* **`sodium`** – Potężny zastrzyk FPS-ów i optymalizacja silnika graficznego.
+* **`xaeroworldmap`** – Czytelna mapa świata pod klawiszem `M`.
+* **`advancements_reloaded`** – Całkowicie odświeżony, przejrzysty i nowoczesny interfejs drzewka osiągnięć.
+* **`notenoughanimations`** / **`fabrictailor`** – Dodatkowe, płynne animacje postaci z perspektywy trzeciej osoby oraz opcje personalizacji wyglądu (skórek).
+---
 
-1. Wejdź na oficjalną stronę: [https://fabricmc.net/use/installer/](https://fabricmc.net/use/installer/)
-2. Pobierz wersję **Universal (.JAR)** lub **Windows (.EXE)**.
-3. Uruchom pobrany plik instalatora.
-4. W okienku upewnij się, że masz wybrane:
-   * **Minecraft Version:** `1.21.1`
-   * **Loader Version:** *(zostaw najnowszą stabilną wersję)*
-5. Kliknij przycisk **Install**.
-6. Po zakończeniu zamknij instalator i odpal oficjalny Launcher Minecrafta. Na liście profili powinna pojawić się nowa wersja: **Fabric Loader 1.21.1**.
+## 🌍 Mody Server Side
+*Mody wprowadzające nowe mechaniki rozgrywki RPG, ekonomię jedzenia oraz interakcje między graczami.*
+
+* **`FarmersDelight`** – Nowe stoły rzemieślnicze, kociołki i zaawansowana mechanika gotowania. Pozwala na tworzenie potraw z masowych zapasów warzyw (w końcu buraki mają sens!).
+* **`essential_commands`** – System komend serwerowych ułatwiający rozgrywkę RPG (obsługa `/home`, `/spawn` oraz systemu próśb o teleportację `/tpa`).
+* **`roomfortwo`** – Mechanika wspólnej jazdy! Pozwala dwóm graczom na jednoczesne podróżowanie na jednym koniu lub innym wierzchowcu.
+* **`kiss-a-friend`** / **`proper-pet-tp`** – Klimatyczne interakcje między graczami oraz automatyczne teleportowanie Twoich oswojonych zwierzaków razem z Tobą.
+* **`FastItemFrames`** – Ramki na przedmiot są blokami (Mojang could never)
 
 ---
 
-## 🗂️ Krok 2: Pobranie i wrzucenie modów
+## ⚙️ Biblioteki i Silniki Techniczne
+*Pliki wymagane do poprawnego działania powyższych modyfikacji. Nie wprowadzają bezpośrednich zmian w grze.*
 
-Gdy silnik jest gotowy, czas na właściwe pliki modyfikacji (`.jar`).
-
-1. Pobierz wszystkie pliki `.jar` z tego repozytorium na GitHubie.
-   * *Tip: Możesz pobrać wszystko na raz w archiwum ZIP – kliknij zielony przycisk **Code** w prawym górnym rogu i wybierz **Download ZIP**, a następnie go rozpakuj.*
-2. Wciśnij na klawiaturze kombinację klawiszy `Win + R`.
-3. W okienku, które się pojawi, wpisz `%appdata%\.minecraft` i kliknij **Enter**. Otworzy Ci się główny folder gry.
-4. Znajdź tam folder o nazwie **`mods`**.
-   * ⚠️ *Jeśli nie masz folderu `mods`, po prostu kliknij prawym przyciskiem myszy, stwórz nowy folder i nazwij go dokładnie `mods` (małymi literami).*
-5. **Ważne:** Jeśli masz tam jakieś stare mody z innych gier, usuń je lub przenieś w inne miejsce, żeby nie gryzły się z naszą paczką.
-6. Skopiuj wszystkie nowo pobrane pliki `.jar` i wklej je bezpośrednio do folderu **`mods`**.
+* `fabric-api` / `fabric-language-kotlin` – Główne rdzenie silnika Fabric.
+* `cloth-config` / `yet_another_config_lib` / `ForgeConfigAPIPort` – Systemy odpowiedzialne za ekrany konfiguracji modów.
+* `framework` / `PuzzlesLib` / `Searchables` – Biblioteki programistyczne wspierające optymalizację i działanie zaawansowanych modów.
 
 ---
 
-## 🚀 Krok 3: Odpalenie gry
-
-1. Włącz **Minecraft Launcher**.
-2. Wybierz profil **Fabric Loader 1.21.1** (znajdziesz go na liście rozwijanej po lewej stronie przycisku "GRAJ").
-3. Kliknij **GRAJ**, wbijaj na serwer i lecimy z tematem!
-
----
-
-### 📌 Info dla osób grających na padzie (Controller Info)
-* Paczka ma wbudowanego moda **MidnightControls**, więc możesz w 100% grać na padzie od Xboxa / PlayStation!
-* Jeśli chcesz zmienić bindowanie klawiszy, czułość analogów lub układ przycisków, wejdź w grze pod `ESC` -> **Opcje**, a następnie kliknij ikonkę kontrolera w prawym górnym rogu ekranu.
+## 🛠️ Szybka Instalacja
+1. Uruchom **`fabric-installer-1.1.1.exe`**, wybierz wersję gry **26.1.2** i kliknij **Install**.
+2. Wciśnij `Win + R`, wpisz `%appdata%\.minecraft` i otwórz folder **`mods`** (jeśli go nie ma, stwórz go).
+3. Wyczyść stare mody i wklej tutaj wszystkie pliki `.jar` z tej listy.
+4. Odpal Minecraft Launcher, wybierz profil **Fabric Loader 26.1.2** i graj!
