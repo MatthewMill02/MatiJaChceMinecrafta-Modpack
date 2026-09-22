@@ -19,7 +19,7 @@ Siema! Oto oficjalna i finalna lista modów dla naszego serwera. Poniżej znajdz
 
 * **`FarmersDelight`** – Nowe stoły rzemieślnicze, kociołki i zaawansowana mechanika gotowania. Pozwala na tworzenie potraw z masowych zapasów warzyw (w końcu buraki mają sens!).
 * **`essential_commands`** – System komend serwerowych ułatwiający rozgrywkę RPG (obsługa `/home`, `/spawn` oraz systemu próśb o teleportację `/tpa`).
-* **`roomfortwo`** – Mechanika wspólnej jazdy! Pozwala dwóm graczom na jednoczesne podróżowanie na jednym koniu lub innym wierzchowcu.
+* **`roomfortwo`** – Mechanika wspólnej jazdy! Pozwala dwóm graczom na odpoczynek we wspólnym łóżku.
 * **`kiss-a-friend`** / **`proper-pet-tp`** – Klimatyczne interakcje między graczami oraz automatyczne teleportowanie Twoich oswojonych zwierzaków razem z Tobą.
 * **`FastItemFrames`** – Ramki na przedmiot są blokami (Mojang could never)
 
